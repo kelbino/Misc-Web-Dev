@@ -1,0 +1,219 @@
+<html>
+<head>
+<title></title>
+
+<link rel="stylesheet" href="../flexslider.css" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script src="../jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+	  
+    $('.flexslider').flexslider();
+	
+	var slider1 = $('#slider1').data('flexslider');
+
+	$('#slider1').height(600);
+	slider1.resize();
+  
+  
+  
+  });
+</script>
+
+<style>
+
+body{
+	background-color: white;
+	height: 780px;
+    width: 100%;
+	margin: 0px;
+    padding: 0px;
+	
+}
+
+
+img.admusel{
+
+	
+	width: 275px;
+	height: 100px;
+	
+	
+}
+
+
+hr{
+	opacity:1.0;
+	
+	
+}
+
+.headlinks{
+	text-align: top center;
+	font-family: 'Lucida Sans Unicode';
+	color: blue;
+	padding-bottom:10px;
+	
+	
+}
+
+#linkmarg{
+
+	text-align: center;
+	
+	
+
+}
+
+
+#sidebar{
+	text-align: left;
+	line-height: 65px;
+	font-size: 15px;
+	font-family: 'Lucida Sans Unicode';
+	border-right: 5px;
+	border-right-color: black;
+	float: top;
+
+}
+
+.flexslider{
+	randomize: true;
+	width: 75%;
+	float: right;
+	
+	
+	
+}
+
+
+ul{
+	list-style: none;
+
+
+}
+
+
+a{	
+
+	padding-left: 10px;
+
+
+}
+
+a:link{ 
+	color: #BBCCFB;
+	text-decoration: none;
+
+	
+}
+
+a:visited{ 
+	color: #7DA5D4;
+	text-decoration: none;
+
+	
+}
+
+a:hover{ 
+	color: #FFE294;
+	text-decoration: underline;
+
+}
+
+a:active{ 
+	color: #FFE294;
+	text-decoration: none;
+
+	
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+<div id="content">
+					
+		<!--Menu-->	
+		<div class="headlinks">
+			<img src="../images/Admusel.png" class="admusel" alt="Admusel.com"/>
+				<div id="linkmarg">
+					<a href="../Admusel.html">Home</a>
+					<a href="../Mens/Mens.html">Mens </a>
+					<span>
+					</span>
+					<a href="AboutAllison.html">About Allison </a>
+					<a href="AdmuselModels.html">Admus'el Models </a>
+					<span>
+					</span>
+					<a href="NewArrivals.html">New Arrivals</a>
+				</div>
+		</div>
+		<!--End Menu-->
+
+		<hr />
+		
+		<!--Images for Slide Show-->
+			<div class="flexslider"> 
+				<ul class="slides">
+				
+				  <li>
+					<img src="../images/rwomens1.jpg" alt="" />
+				  </li>
+				  
+				  <li>
+					<img src="../images/rwomens2.jpg"  alt="" />
+				  </li>
+				  
+				  <li>
+					<img src="../images/rwomen3.jpg" alt="" />
+				  </li>
+				  
+				  <li>
+					<img src="../images/rwomens4.jpg" alt="" />
+				  </li>
+				  
+				  <li>
+					<img src="../images/rwomens5.jpg" alt="" />
+				  </li>	
+				
+				</ul>
+			
+			</div>
+		<!--Side Menu-->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<a href="">Womens New Arrivals </a>
+				</li>
+				<li>	
+					<a href="">Graphic Tee's </a>
+				</li>	
+				<li>	
+					<a href="">Plain Tee's </a>
+				</li>	
+				<li>	
+					<a href="">Hoodies </a>
+				</li>
+				<li>	
+					<a href="">Admus'el Exclusives </a>
+				</li>
+			</ul>
+		</div>
+		<!--End Side Menu-->
+		
+		
+		
+		
+</div>		
+
+
+
+</body>
+</html>

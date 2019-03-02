@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<title>Admus'el</title>
+
+<!--call JQuery library-->
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script src="jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+	  
+    $('.flexslider').flexslider();
+	
+	var slider1 = $('#slider1').data('flexslider');
+
+	$('#slider1').height(600);
+	slider1.resize();
+	
+  
+  });
+</script>
+
+<link rel="stylesheet" "type=text/css" href="flexslider.css"/>
+
+
+
+
+
+</head> 
+<body>
+	
+	<div id="content">
+					
+		<!--Menu-->	
+		<div class="headlinks">
+			<img src="images/Admusel.png" class="admusel" alt="Admusel"/>
+				<div id="linkmarg">
+					<span><a href="Mens/Mens.html">Mens </a></span>
+					<span><a href="Womens/Womens.html">Womens </a></span>
+					<span><a href="Allison/AboutAllison.html">About Allison </a></span>
+					<span><a href="Models/AdmuselModels.html">Admus'el Models </a></span>
+					<span><a href="Arrivals/NewArrivals.html">New Arrivals</a></span>
+                    
+				</div>
+		</div>
+     
+     </div>
+		<!--End Menu-->
+		
+		<hr />
+		
+		<!--Images for Slide Show-->
+			<div class="flexslider"> 
+				<ul class="slides">
+				
+				  <li>
+					<img src="images/boy.jpg" alt="Man Posing" />
+				  </li>
+				  
+				  <li>
+					<img src="images/girl.jpg"  alt="Girl By Lake" />
+				  </li>
+				  
+				  <li>
+					<img src="images/Urban.jpg" alt="Man In Boots" />
+				  </li>
+				
+				</ul>
+			
+			</div>
+			
+			<!--Sub images for lower part of page-->
+			<div class="promo1">
+				<a id="alink" href="">Check Out The Admus'el Mod</a>
+                <img align="left" src="images/Model.jpg" class="Model" alt="Asian"/>
+                
+			</div>
+			
+			<div class="promo2">	
+				
+				<a id="nlink" href="">Admus'el's New Arrivals</a>			
+				<img align="right" src="images/Model2.jpg" class="Model2" alt="White"/>
+			
+				
+			</div>
+			
+			
+			<!--End Sub Images-->
+				
+		
+	
+
+	<!--footer-->
+	<div class="footlinks">
+				<a href="">Contact Us</a>
+				<a href="">Careers</a>
+				<a href="">Feedback</a>
+			</div>
+
+</body>
+</html>
