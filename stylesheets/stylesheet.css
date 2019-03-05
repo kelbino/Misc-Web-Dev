@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+div.header{
+	position: fixed !important;
+	background-color: white;
+	min-width: 100%;
+	padding: 15px 90px;
+	word-spacing: 1.0em;
+	z-index: 1;
+
+}
+
+
+.header a{
+	text-decoration: none;
+	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+}
+
+.main{
+	display:inline-flex;
+	background-color: black;
+
+
+}
+
+.main h1{
+	position: absolute;;
+	text-align: center;
+	top: 300px;
+	left: 350px;
+	font-size: 4.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: cornflowerblue;
+
+
+}
+
+.main h3{
+	position:;
+	top: 300px;
+	left: 350px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.0em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	letter-spacing: 0.25em;
+	color: cornflowerblue;
+
+
+}
+
+
+.main a{
+
+	position: absolute;
+	top: 600px;
+	left: 600px;
+	text-align: center;
+	border: double;
+	padding: 5px 30px;
+	color: cornflowerblue;
+	text-decoration: inherit;
+
+
+
+}
+
+img.workout{
+	padding-top: 50px;
+	min-width: 100%;
+	width: 100%;
+
+}
+
+
+.about{
+	padding: 10px 0px;
+	background-color: black;
+	color: lightgray;
+	text-align: center;
+
+
+
+
+}
+
+.about h2{
+
+	font-size: 2.5em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 0.3em;
+	align-items: flex-start;
+
+
+}
+
+.about h3{
+
+	font-size: 1.5em;
+
+}
+
+.about p{
+
+	padding: 50px 100px;
+
+}
+
+
+.empl{
+
+	background-color: rgba(129,161,199,0.70);
+	padding: 50px;
+
+}
+
+.trainers{
+
+display: inline-flex;
+justify-content: flex-start;
+
+}
+
+.instructor1{
+
+margin: 10px 0px 5px 0px;
+
+}
+
+.instructor1 p{
+display: inline-block;
+justify-content: flex-end;
+width: 55%;
+
+}
+
+.instructor2{
+
+margin: 10px;
+
+}
+
+h2{
+
+	display: block;
+	font-size: 4.5em;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	letter-spacing: 0.3em;
+	margin: 20px;
+
+}
+
+
+img.instructor {
+
+	border:dashed 2px;
+	width: 400px;
+	height: 550px;
+
+}
+
+
+.trainer{
+
+	display: inline-block;
+	justify-content: flex-start;
+	align-items: flex-end;
+	margin: 20px;
+
+}
+
+
+
+.closer{
+
+	padding: 30px;
+	background-color: khaki;
+	font-size: 2.5em;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: darkgrey;
+
+}
+
+.footer{
+
+	padding: 40px;
+	background-color: darkgray;
+
+
+
+}
